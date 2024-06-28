@@ -13,6 +13,6 @@ https://awafuns.cn/acfunstudy/index.html
 
 下拉菜单-轮播图-滚动图-登录注册页-放大镜-城市三联动-商品详情-商品页
 
-![image](/assets/image.gif)
+![image](/assets/image.webp)
 
 ----
