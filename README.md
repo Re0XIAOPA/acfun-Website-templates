@@ -2,6 +2,8 @@
 
 Git暂时不会 下载无影响
 
+![image](/assets/image.gif)
+
 ---
 
 演示地址：
