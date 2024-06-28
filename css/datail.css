@@ -1,0 +1,233 @@
+/* styles.css */
+
+/* 通用样式 */
+.product-main {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    width: 1190px;
+    height: 360px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.product-main a {
+    text-decoration: none;
+    color: #1f2329;
+}
+
+.shopjia {
+    margin-top: 1rem;
+}
+
+.price {
+    margin-top: 2rem;
+}
+
+.product-main button {
+    cursor: pointer;
+    border: none;
+    background-color: #FF5356;
+    margin-top: 1rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.product-main button:hover {
+    background-color: #e34a4c;
+    color: white;
+}
+
+
+/* 商品详情内容 */
+.product-detail {
+    width: 1150px;
+    height: 366px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.product-detail:hover {
+    transition: .3s ease-in-out;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+.product-gallery .active {
+    max-width: 100%;
+    height: auto;
+}
+
+.thumbnail-list img {
+    width: 100px;
+    height: auto;
+    margin: 0.1rem 10px;
+    margin-right: 1rem;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.thumbnail-list img:hover {
+    transition: .3s ease-in-out;
+    box-shadow: 0 0 5px 1px rgb(214, 87, 87);
+}
+
+
+/* 商品信息 */
+.product-info {
+    width: 500px;
+    margin-top: 1rem;
+    margin-left: 80px;
+    float: left;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating i {
+    color: #ff7b59;
+    margin-right: 0.2rem;
+}
+
+.quantity-selector button {
+    background-color: transparent;
+    border: 1.2px solid #FF5356;
+    padding: 0.25rem 0.5rem;
+    color: #ff5e3a;
+}
+
+.quantity-selector span {
+    margin: 0 0.25rem;
+    color: #ff5e3a;
+}
+
+.add-to-cart,
+.buy-now {
+    margin-top: 1.2rem;
+}
+
+#footer-end-con {
+    width: 1130px;
+    padding: 20px 0;
+}
+
+.description {
+    width: 1130px;
+    height: 100%;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.description span {
+    color: #222222;
+    font-size: 14px;
+}
+
+/* 下部详情 */
+#footer-end {
+    margin-top: 50px;
+    background-color: #f5f5f5;
+}
+
+#footer-end-con {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/* big放大镜 */
+.product-gallery {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    /* box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25); */
+    float: left;
+}
+
+.preview_img {
+    position: relative;
+    box-shadow: 0 0 8px 5px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    width: 500px;
+    /* 根据需要调整大小 */
+    height: 280px;
+    /* 根据需要调整大小 */
+    overflow: hidden;
+}
+
+.preview_img:hover {
+    box-shadow: 0 0 8px 5px rgba(175, 82, 82, 0.322);
+}
+
+.preview_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.mask {
+    position: absolute;
+    width: 100px;
+    /* 根据需要调整大小 */
+    height: 100px;
+    /* 根据需要调整大小 */
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.big {
+    position: absolute;
+    left: 515px;
+    /* 根据需要调整位置 */
+    top: 0;
+    width: 400px;
+    /* 根据需要调整大小 */
+    height: 400px;
+    /* 根据需要调整大小 */
+    overflow: hidden;
+    display: none;
+}
+
+.big_img {
+    position: absolute;
+    width: 2000px;
+    /* 根据需要调整大小 */
+    height: 1000px;
+    /* 根据需要调整大小 */
+}
+
+
+/* 介绍 */
+
+.description-con {
+    width: 1155px;
+    height: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.description-con h1,
+.description-con h2,
+.description-con h3,
+.description-con h4,
+.description-con h5,
+.description-con h6 {
+    text-align: center;
+}
+
+.description-con p {
+    text-indent: 2em;
+}
+
+.description-con img {
+    width: 100%;
+    height: 600px;
+}

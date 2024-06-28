@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcFun | 商城</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/shopping.css">
+    <link rel="stylesheet" href="css/end.css">
+    <base target="_blank" />
+</head>
+
+<body>
+
+    <div id="homepage_H" style="width: 1690px;margin: 0 auto; box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25)">
+
+        <div id="homepage_header">
+            <a href="index.html"><img id="logo" src="img/acfanlogo.jpg"></a>
+            <div id="header_nav">
+                <div id="header_nav-left">
+
+                    <span style="width: 200px;">
+                        <a href="">
+                            <i>
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-daojushangcheng"></use>
+                                </svg>
+                            </i>
+                        </a>
+
+                        <a href="" id="defaultprovincial" style="width: 60px;">北京</a>
+
+                        <a href="" id="defaultCity" style="width: 60px;">北京市</a>
+
+                        <a href="" id="defaultcounty" style="width: 60px;">北京县</a>
+
+                        <a href="javascript:void(0);" style="width: 60px;" id="switchCityBtn">切换城市</a>
+                    </span>
+
+                    <!-- 弹出框内容 -->
+
+                    <div id="cityPopup">
+
+                        <div class="popup-header">
+                            <h3>选择地区</h3>
+                            <button id="closePopup">
+                                <p>X</p>
+                            </button>
+                        </div>
+                        <div class="popup-body">
+                            <div><span id="awasss">选择省</span><span id="awasss">选择市</span><span id="awasss">选择区</span>
+                            </div>
+                            <div>
+                                <select id="provinceSelect"></select>
+                                <select id="citySelect" disabled></select>
+                                <select id="districtSelect" disabled></select>
+                            </div>
+                        </div>
+                        <div class="popup-footer">
+                            <button id="confirmCity">确认</button>
+                            <button id="Cancel">取消</button>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="header_nav_searchBox">
+                    <input type="text" placeholder="搜索商品" id="search-text" value autocomplete="off" />
+                    <button id="search_btn">
+                        <a href=""><i>
+                                <svg class="icon" aria-hidden="true" style="position: relative; top: -1.5px;">
+                                    <use xlink:href="#icon-sousuo"></use>
+                                </svg>
+                            </i>
+                        </a>
+                    </button>
+                </div>
+                <div id="header_nav-right" style="float: right;">
+                    <ul id="dropdown">
+
+                        <li style="width: 80px;"><a href=""><svg class=" icon" aria-hidden="true">
+                                    <use xlink:href="#icon-kongxinwujiaoxing"></use>
+                                </svg>订单中心</a></li>
+                        <li style="width: 80px;"><a href="">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-xiaoxi"></use>
+                                </svg>消息</a>
+                            <dl class="displaynone">
+                                <dd><a href="">评论</a></dd>
+                                <dd><a href="">赞</a></dd>
+                                <dd><a href="">@我的</a></dd>
+                                <dd><a href="">私信</a></dd>
+                            </dl>
+                        </li>
+                        <li style="width: 100px;"><a href="login.html">
+                                登录/注册
+                            </a>
+                        </li>
+                        <li style="width: 100px;"><a href="">
+                                <svg class="icon" aria-hidden="true" style="position: relative; top: 4px;">
+                                    <use xlink:href="#icon-chuangzuozhezhongxin_52"></use>
+                                </svg>个人中心</a>
+                            <dl class="displaynone">
+                                <dd><a href="">个人主页</a></dd>
+                                <dd><a href="">我是爱坤</a></dd>
+                                <dd><a href="">你是我的</a></dd>
+                                <dd><a href="">我是你的</a></dd>
+                            </dl>
+                        </li>
+                        <button type="button" style="margin-left: 10px;">
+                            <a href="">购物车</a>
+                        </button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 商城主体区域 -->
+    <div id="shopping-container">
+
+        <!-- 商品卡片 -->
+        <div class="product-row">
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <!-- 其他商品卡片... -->
+        </div>
+
+        <div class="product-row">
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <!-- 其他商品卡片... -->
+        </div>
+
+        <div class="product-row">
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <!-- 其他商品卡片... -->
+        </div>
+
+        <div class="product-row">
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <!-- 其他商品卡片... -->
+        </div>
+
+        <div class="product-row">
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <!-- 其他商品卡片... -->
+        </div>
+
+        <div class="product-row">
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <div class="product-card">
+                <a href="detail.html"><img src="img/JPGPNG/AwA_6.webp" alt="商品图片"></a>
+                <p>商品名称: BYT</p>
+                <p>价格: ￥99.99</p>
+            </div>
+
+            <!-- 其他商品卡片... -->
+        </div>
+
+    </div>
+
+    <div id="homepage_content_recommend">
+        <div id="recommend-content">
+            <div id="recommend-top">
+                <div id="awa01">
+                    <div>
+                        <p>合作</p>
+                        <div><a href="">关于我们</a></div>
+                        <div><a href="">联系我们</a></div>
+                    </div>
+                    <div>
+                        <p>招聘</p>
+                        <div><a href="">社会招聘</a></div>
+                        <div><a href="">实习招聘</a></div>
+                    </div>
+                </div>
+
+                <div id="awa01">
+                    <p>官方</p>
+                    <div><a href="">新浪微博</a></div>
+                    <div><a href="">官方网站</a></div>
+                    <div><a href="">微信公众号</a></div>
+                    <div><a href="">UP主学院</a></div>
+                </div>
+
+                <div id="awa01">
+                    <p>下载</p>
+                    <div><a href="">移动客户端</a></div>
+                    <div><a href="">直播/虚拟工具</a></div>
+                    <div><a href="">AC娘表情包</a></div>
+                </div>
+
+                <div id="awa01">
+                    <p>友情链接</p>
+                    <div><a href="">awafuns主站</a></div>
+                    <div><a href="">Acfun手机站</a></div>
+                </div>
+
+                <div id="awa01">
+                    <p>反馈</p>
+                    <div><a href="">帮助中心</a></div>
+                    <div><a href="">用户反馈</a></div>
+                    <div><a href="">用户协议</a></div>
+                    <div><a href="">隐私政策</a></div>
+                    <div><a href="">侵权举报申诉</a></div>
+                    <div><a href="">儿童隐私政策</a></div>
+                    <div><a href="">儿童守护协议</a></div>
+                </div>
+            </div>
+
+        </div>
+        <div id="recommend-end">
+            <div id="end-end">Copyright &copy; 2024 AcFun. &nbsp; 保留所有权利 此页面且仅供学习 <a
+                    href="https://github.com/Re0XIAOPA/acfun-Website-templates">Github</a></div>
+        </div>
+    </div>
+
+    <script src="js/shopping.js"></script>
+    <script src="font/iconfont.js"></script>
+
+</body>
+
+</html>

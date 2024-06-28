@@ -1,0 +1,124 @@
+#shopping-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-row {
+    width: 1250px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card {
+    width: calc(20% - 20px);
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.product-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+
+/* 弹窗 */
+
+#cityPopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 380px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.popup-header button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f35356;
+    background-color: #f35356;
+}
+
+.popup-header button:hover {
+    background-color: #ce4648;
+}
+
+#closePopup p {
+    color: #FFFFFF;
+}
+
+.popup-body {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.popup-body div {
+    float: left;
+}
+
+.popup-body div #awasss {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.popup-body select {
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 50px;
+}
+
+.popup-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.popup-footer button {
+    width: 100px;
+    height: 35px;
+    color: #FFFFFF;
+    background-color: #f35356;
+    border: 1px solid #f35356;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    right: 90px;
+}
+
+.popup-footer button:hover {
+    background-color: #ce4648;
+    border: 1px solid #f35356;
+
+}

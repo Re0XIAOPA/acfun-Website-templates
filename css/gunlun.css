@@ -1,0 +1,86 @@
+#homepage_banner {
+    width: 1690px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/banner.png);
+    background-size: 1690px 200px;
+    background-repeat: no-repeat;
+    position: relative
+}
+
+.container {
+    width: 1690px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    /* border-radius: 10px; */
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25)
+}
+
+.container ul {
+    width: 1690px;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    margin-top: 20px
+}
+
+.container li {
+    list-style: none;
+    height: 100%;
+    padding-right: 20px
+}
+
+.container li img {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 2px 10px 5px rgba(0, 0, 0, 0.25);
+    object-fit: cover;
+    object-position: center
+}
+
+.container .btnsss {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px
+}
+
+.container .btnawa {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FF5356;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 8px 8px;
+    font-size: 18px;
+    border-radius: 100px;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    display: none
+}
+
+.container #awal {
+    position: relative;
+    bottom: 155px;
+    right: 692px
+}
+
+.container #awar {
+    position: relative;
+    bottom: 155px;
+    left: 692px
+}
+
+.container .btnawa:hover {
+    background-color: rgba(255, 255, 255, 0.2)
+}
