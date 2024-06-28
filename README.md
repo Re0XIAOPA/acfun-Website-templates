@@ -1,6 +1,6 @@
-# 自仿AcFun大学生简单网页模版
+## 自仿AcFun大学生简单网页模版
 
-Git暂时不会 下载无影响
+##### Git暂时不会 下载无影响 （新手） 
 
 ![image](/assets/image.gif)
 
