@@ -6,6 +6,10 @@
 
 ---
 
+适合大学生宝宝体质的源码 在不担心没学分啦 代码要技术有数量 要美观也有数量
+
+---
+
 演示地址：
 https://awafuns.cn/acfunstudy/index.html
 
