@@ -10,8 +10,8 @@
 
 ---
 
-演示地址 [ DNS出现了问题，多次访问就可以了 ] ：
-https://awafuns.cn/acfunstudy/index.html
+演示地址 [ 已失效 ] ：
+<del>https://awafuns.cn/acfunstudy/index.html</del>
 
 ---
 
