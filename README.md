@@ -12,6 +12,8 @@
 
 演示地址 [ 已失效 ] ：
 <del>https://awafuns.cn/acfunstudy/index.html</del>
+演示地址 [ Github ] ：
+https://re0xiaopa.github.io/acfun-Website-templates/
 
 ---
 
