@@ -11,10 +11,10 @@
 ---
 
 >演示地址 [ 已失效 ] ：
-<del>https://awafuns.cn/acfunstudy/index.html</del>
+<del>[点击跳转](https://awafuns.cn/acfunstudy/index.html)</del>
 
 >演示地址 [ Github ] ：
-https://re0xiaopa.github.io/acfun-Website-templates/
+[点击跳转](https://re0xiaopa.github.io/acfun-Website-templates/)
 
 ---
 
