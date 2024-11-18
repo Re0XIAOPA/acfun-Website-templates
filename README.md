@@ -1,10 +1,6 @@
 ## 自仿AcFun简单网页模版
 
----
-
 页面简单 SHI山代码 (存放代码而已) 没有自适应
-
-![image](/assets/image.gif)
 
 ---
 
